@@ -9,6 +9,7 @@ function updatePosition(entity) {
 
 // プレイヤーエンティティ
 
+//
 function createPlayer() {
   return {
     x: 200,
