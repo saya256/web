@@ -2,6 +2,8 @@
 
 // 全エンティティ共通
 
+//
+
 function updatePosition(entity) {
   entity.x += entity.vx;
   entity.y += entity.vy;
@@ -9,7 +11,6 @@ function updatePosition(entity) {
 
 // プレイヤーエンティティ
 
-//
 function createPlayer() {
   return {
     x: 200,
